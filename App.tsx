@@ -3,7 +3,7 @@ import { Sparkles, Camera, RotateCcw, Download, Share2, AlertCircle } from 'luci
 import CameraFeed from "./CameraFeed";
 import Wardrobe from "./Wardrobe";
 import { Garment, AppState } from './types';
-import { generateTryOnImage } from './services/geminiService';
+import { generateTryOnImage } from "./geminiService";
 
 const App: React.FC = () => {
   const [appState, setAppState] = useState<AppState>(AppState.CAPTURE);
