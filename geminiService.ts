@@ -2,7 +2,7 @@ import { GoogleGenAI, Modality } from "@google/genai";
 
 // Initialize Gemini API Client
 // The API key must be obtained exclusively from the environment variable process.env.API_KEY.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({apiKey: import.meta.env.VITE_API_KEY});
 
 export const generateTryOnImage = async (
   userImageBase64: string,
