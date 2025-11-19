@@ -1,0 +1,7 @@
+{
+  "name": "Copy of VirtualFit AI",
+  "description": "A virtual fitting room experience using GenAI to visualize clothing items on yourself.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
