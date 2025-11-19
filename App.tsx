@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Camera, RotateCcw, Download, Share2, AlertCircle } from 'lucide-react';
 import CameraFeed from "./CameraFeed";
-import Wardrobe from './components/Wardrobe';
+import Wardrobe from "./Wardrobe";
 import { Garment, AppState } from './types';
 import { generateTryOnImage } from './services/geminiService';
 
